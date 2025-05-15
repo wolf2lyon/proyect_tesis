@@ -7,7 +7,7 @@ import os
 def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
-    CORS(app, origins=["http://localhost:5173"])
+    CORS(app, origins=["http://20.9.136.223:5173"])
     # Crea la carpeta de subida si no existe
     os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
