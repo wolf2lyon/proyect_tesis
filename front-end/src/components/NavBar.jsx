@@ -3,7 +3,7 @@ import { auth } from "./FireBase";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import { Link } from "react-router-dom";
-import { SidebarData } from "../utils/SideBarData.jsx";
+import { SidebarData } from "../utils/SidebarData.jsx";
 import { IconContext } from "react-icons";
 
 
