@@ -30,7 +30,7 @@ export const Form = ({ children, files, jobDescription, setUserResponse,userResp
     }
 
     try {
-      const response = await fetch("http://localhost:5000/matcher", {
+      const response = await fetch("http://127.0.0.1:5000/matcher", {
         method: "POST",
         body: formData,
       });
